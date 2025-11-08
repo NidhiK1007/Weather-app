@@ -12,7 +12,7 @@ searchBtn.addEventListener('click', () => {
   }
 
   // Step 3: Call the weather API
-  const apiKey = '0a3bb7a7c325bd773ea0335471479b3c';
+  const apiKey = '19a188df3308c15fa6c40c865b18c9a0';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
   // Step 4: Fetch data from API
